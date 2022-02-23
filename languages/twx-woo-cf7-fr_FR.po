@@ -1,0 +1,123 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TwX Custom tags for Woo / CF7\n"
+"POT-Creation-Date: 2022-02-23 00:00+1000\n"
+"PO-Revision-Date: 2022-02-23 00:00+0100\n"
+"Last-Translator: Seds <seds.admin@gmail.com>\n"
+"Language-Team: TwX Team <seds.admin@gmail.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-WPHeader: twx_functions.php\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: ../twx_functions.php
+msgid "TwX Custom tags for Woo / CF7"
+msgstr "TwX Custom tags pour Woo / CF7"
+
+msgid "Time, countries WooCommerce allowed and their states tags for Contact Form 7"
+msgstr "Balises time, pays autorisés par Woocommerce et leurs états/provinces pour Contact Form 7"
+
+msgid "The TwX Custom tags for Woo / CF7 plugin requires Contact form 7 and WooCommerce plugins to be installed and active."
+msgstr "L'extension TwX Custom tags pour Woo / CF7 nécessite que les plugins Contact form 7 et WooCommerce soient installés et actifs."
+
+#: ../includes/tag/countries-dropdown.php
+msgid "Countries can influence ZIP code & city fields. If you want to update labels or placeholders depending on country :<br>-- Please add 'city_container' class on city field container,<br>-- Please add have added 'zip_container' class on zip code field container."
+msgstr "Les pays peuvent influencer les champs de code postal et de ville. Si vous souhaitez mettre à jour les labels ou les placeholders en fonction du pays :<br>-- Veuillez ajouter la classe 'city_container' sur le conteneur de champ ville,<br>-- Veuillez ajouter la classe 'zip_container' sur le conteneur de champ de code postal."
+
+msgid "Country / Region"
+msgstr "Pays / Région"
+
+msgid "Generate a form-tag for WC countries dropdown."
+msgstr "Générer une balise de liste déroulante des pays WooCommerce."
+
+msgid "WC Countries Dropdown"
+msgstr "WC Menu Pays"
+
+#: ../includes/tag/states-dropdown.php
+msgid "Countries can influence States/Provinces field. If you want to update label or placeholder depending on country :<br>-- Please add 'state_container' class on States/Provinces field container."
+msgstr "Les pays peuvent influencer le champ États/Provinces. Si vous souhaitez mettre à jour le label ou le placeholder en fonction du pays :<br>-- Veuillez ajouter la classe 'state_container' sur le conteneur de champ États/Provinces."
+
+msgid "Generate a form-tag for WC States/Provinces dropdown."
+msgstr "Générer une balise de liste déroulante des États/Provinces WooCommerce."
+
+msgid "WC States/Provinces Dropdown"
+msgstr "WC Menu États/Provinces"
+
+#: ../includes/tag/time-input.php
+msgid "Generate a form-tag for a time field."
+msgstr "Générer une balise de champ de time."
+
+msgid "The time format is incorrect."
+msgstr "Le format de l'heure est incorrect."
+
+msgid "The time is before the earliest one allowed."
+msgstr "L'heure est antérieure à la première heure autorisée."
+
+msgid "The time is after the latest one allowed."
+msgstr "L'heure est postérieure à la dernière heure autorisée."
+
+#: ../includes/ajax-actions.php
+msgid "(optional)"
+msgstr "(facultatif)"
+
+msgid "Choose an option"
+msgstr "Choisissez une option"
+
+msgid "Canton"
+msgstr "Canton"
+
+msgid "City"
+msgstr "Ville"
+
+msgid "City / Post office"
+msgstr "Ville / Bureau de poste"
+
+msgid "Department"
+msgstr "Département"
+
+msgid "District"
+msgstr "District"
+
+msgid "Domain"
+msgstr "Domaine"
+
+msgid "Eircode"
+msgstr "Eircode"
+
+msgid "Municipality"
+msgstr "Municipalité"
+
+msgid "Municipality / District"
+msgstr "Municipalité / District"
+
+msgid "Pin code"
+msgstr "Code PIN"
+
+msgid "Province"
+msgstr "Province"
+
+msgid "Prefecture"
+msgstr "Préfecture"
+
+msgid "Region"
+msgstr "Région"
+
+msgid "Region / Department"
+msgstr "Région / Département"
+
+msgid "State"
+msgstr "État"
+
+msgid "Town"
+msgstr "Commune"
+
+msgid "ZIP code"
+msgstr "Code postal"
