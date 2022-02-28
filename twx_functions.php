@@ -12,7 +12,6 @@
    License: GPL-2.0+
    License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  */
-namespace TwxCf7;
 
 if ( ! defined( 'TWX_BASENAME' ) ) {
         define( 'TWX_BASENAME', plugin_basename( __FILE__ ) );
@@ -60,11 +59,11 @@ class TwxCf7CustomTags
     
     public function twx_autoload()
     {
-	require TWX_PATH. 'includes/tag/countries-dropdown.php';
-	require TWX_PATH. 'includes/tag/states-dropdown.php';
-	require TWX_PATH. 'includes/tag/time-input.php';
-	require TWX_PATH. 'includes/embed-js.php';
-        require TWX_PATH. 'includes/ajax-actions.php';
+	require_once TWX_PATH. 'includes/tag/countries-dropdown.php';
+	require_once TWX_PATH. 'includes/tag/states-dropdown.php';
+	require_once TWX_PATH. 'includes/tag/time-input.php';
+	require_once TWX_PATH. 'includes/embed-js.php';
+        require_once TWX_PATH. 'includes/ajax-actions.php';
     }
     
 }
