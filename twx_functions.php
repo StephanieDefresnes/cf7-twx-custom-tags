@@ -63,7 +63,7 @@ class TwxCf7CustomTags
 	require_once TWX_PATH. 'includes/tag/states-dropdown.php';
 	require_once TWX_PATH. 'includes/tag/time-input.php';
 	require_once TWX_PATH. 'includes/embed-js.php';
-        require_once TWX_PATH. 'includes/ajax-actions.php';
+	require_once TWX_PATH. 'includes/ajax-actions.php';
     }
     
 }
